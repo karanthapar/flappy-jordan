@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ED0B69D1C65470D00431AF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B69C1C65470D00431AF3 /* AppDelegate.swift */; };
+		9ED0B69F1C65470D00431AF3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B69E1C65470D00431AF3 /* GameScene.sks */; };
+		9ED0B6A11C65470D00431AF3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A01C65470D00431AF3 /* GameScene.swift */; };
+		9ED0B6A31C65470D00431AF3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A21C65470D00431AF3 /* GameViewController.swift */; };
+		9ED0B6A61C65470D00431AF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A41C65470D00431AF3 /* Main.storyboard */; };
+		9ED0B6A81C65470D00431AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A71C65470D00431AF3 /* Assets.xcassets */; };
+		9ED0B6AB1C65470D00431AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A91C65470D00431AF3 /* LaunchScreen.storyboard */; };
+		9ED0B6B61C65470D00431AF3 /* FlappyJordanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6B51C65470D00431AF3 /* FlappyJordanTests.swift */; };
+		9ED0B6C11C65470D00431AF3 /* FlappyJordanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6C01C65470D00431AF3 /* FlappyJordanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ED0B6B21C65470D00431AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED0B6911C65470D00431AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED0B6981C65470D00431AF3;
+			remoteInfo = FlappyJordan;
+		};
+		9ED0B6BD1C65470D00431AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ED0B6911C65470D00431AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED0B6981C65470D00431AF3;
+			remoteInfo = FlappyJordan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ED0B6991C65470D00431AF3 /* FlappyJordan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyJordan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED0B69C1C65470D00431AF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ED0B69E1C65470D00431AF3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9ED0B6A01C65470D00431AF3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9ED0B6A21C65470D00431AF3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9ED0B6A51C65470D00431AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ED0B6A71C65470D00431AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ED0B6AA1C65470D00431AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ED0B6AC1C65470D00431AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED0B6B11C65470D00431AF3 /* FlappyJordanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyJordanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED0B6B51C65470D00431AF3 /* FlappyJordanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyJordanTests.swift; sourceTree = "<group>"; };
+		9ED0B6B71C65470D00431AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED0B6BC1C65470D00431AF3 /* FlappyJordanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyJordanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED0B6C01C65470D00431AF3 /* FlappyJordanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyJordanUITests.swift; sourceTree = "<group>"; };
+		9ED0B6C21C65470D00431AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED0B6961C65470D00431AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6AE1C65470D00431AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6B91C65470D00431AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ED0B6901C65470D00431AF3 = {
+			isa = PBXGroup;
+			children = (
+				9ED0B69B1C65470D00431AF3 /* FlappyJordan */,
+				9ED0B6B41C65470D00431AF3 /* FlappyJordanTests */,
+				9ED0B6BF1C65470D00431AF3 /* FlappyJordanUITests */,
+				9ED0B69A1C65470D00431AF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED0B69A1C65470D00431AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0B6991C65470D00431AF3 /* FlappyJordan.app */,
+				9ED0B6B11C65470D00431AF3 /* FlappyJordanTests.xctest */,
+				9ED0B6BC1C65470D00431AF3 /* FlappyJordanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED0B69B1C65470D00431AF3 /* FlappyJordan */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0B69C1C65470D00431AF3 /* AppDelegate.swift */,
+				9ED0B69E1C65470D00431AF3 /* GameScene.sks */,
+				9ED0B6A01C65470D00431AF3 /* GameScene.swift */,
+				9ED0B6A21C65470D00431AF3 /* GameViewController.swift */,
+				9ED0B6A41C65470D00431AF3 /* Main.storyboard */,
+				9ED0B6A71C65470D00431AF3 /* Assets.xcassets */,
+				9ED0B6A91C65470D00431AF3 /* LaunchScreen.storyboard */,
+				9ED0B6AC1C65470D00431AF3 /* Info.plist */,
+			);
+			path = FlappyJordan;
+			sourceTree = "<group>";
+		};
+		9ED0B6B41C65470D00431AF3 /* FlappyJordanTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0B6B51C65470D00431AF3 /* FlappyJordanTests.swift */,
+				9ED0B6B71C65470D00431AF3 /* Info.plist */,
+			);
+			path = FlappyJordanTests;
+			sourceTree = "<group>";
+		};
+		9ED0B6BF1C65470D00431AF3 /* FlappyJordanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ED0B6C01C65470D00431AF3 /* FlappyJordanUITests.swift */,
+				9ED0B6C21C65470D00431AF3 /* Info.plist */,
+			);
+			path = FlappyJordanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED0B6981C65470D00431AF3 /* FlappyJordan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED0B6C51C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordan" */;
+			buildPhases = (
+				9ED0B6951C65470D00431AF3 /* Sources */,
+				9ED0B6961C65470D00431AF3 /* Frameworks */,
+				9ED0B6971C65470D00431AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyJordan;
+			productName = FlappyJordan;
+			productReference = 9ED0B6991C65470D00431AF3 /* FlappyJordan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ED0B6B01C65470D00431AF3 /* FlappyJordanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED0B6C81C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordanTests" */;
+			buildPhases = (
+				9ED0B6AD1C65470D00431AF3 /* Sources */,
+				9ED0B6AE1C65470D00431AF3 /* Frameworks */,
+				9ED0B6AF1C65470D00431AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED0B6B31C65470D00431AF3 /* PBXTargetDependency */,
+			);
+			name = FlappyJordanTests;
+			productName = FlappyJordanTests;
+			productReference = 9ED0B6B11C65470D00431AF3 /* FlappyJordanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ED0B6BB1C65470D00431AF3 /* FlappyJordanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED0B6CB1C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordanUITests" */;
+			buildPhases = (
+				9ED0B6B81C65470D00431AF3 /* Sources */,
+				9ED0B6B91C65470D00431AF3 /* Frameworks */,
+				9ED0B6BA1C65470D00431AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ED0B6BE1C65470D00431AF3 /* PBXTargetDependency */,
+			);
+			name = FlappyJordanUITests;
+			productName = FlappyJordanUITests;
+			productReference = 9ED0B6BC1C65470D00431AF3 /* FlappyJordanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ED0B6911C65470D00431AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SimpleK;
+				TargetAttributes = {
+					9ED0B6981C65470D00431AF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9ED0B6B01C65470D00431AF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9ED0B6981C65470D00431AF3;
+					};
+					9ED0B6BB1C65470D00431AF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9ED0B6981C65470D00431AF3;
+					};
+				};
+			};
+			buildConfigurationList = 9ED0B6941C65470D00431AF3 /* Build configuration list for PBXProject "FlappyJordan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ED0B6901C65470D00431AF3;
+			productRefGroup = 9ED0B69A1C65470D00431AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ED0B6981C65470D00431AF3 /* FlappyJordan */,
+				9ED0B6B01C65470D00431AF3 /* FlappyJordanTests */,
+				9ED0B6BB1C65470D00431AF3 /* FlappyJordanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ED0B6971C65470D00431AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0B69F1C65470D00431AF3 /* GameScene.sks in Resources */,
+				9ED0B6AB1C65470D00431AF3 /* LaunchScreen.storyboard in Resources */,
+				9ED0B6A81C65470D00431AF3 /* Assets.xcassets in Resources */,
+				9ED0B6A61C65470D00431AF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6AF1C65470D00431AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6BA1C65470D00431AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED0B6951C65470D00431AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0B6A11C65470D00431AF3 /* GameScene.swift in Sources */,
+				9ED0B6A31C65470D00431AF3 /* GameViewController.swift in Sources */,
+				9ED0B69D1C65470D00431AF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6AD1C65470D00431AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0B6B61C65470D00431AF3 /* FlappyJordanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED0B6B81C65470D00431AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED0B6C11C65470D00431AF3 /* FlappyJordanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ED0B6B31C65470D00431AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED0B6981C65470D00431AF3 /* FlappyJordan */;
+			targetProxy = 9ED0B6B21C65470D00431AF3 /* PBXContainerItemProxy */;
+		};
+		9ED0B6BE1C65470D00431AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED0B6981C65470D00431AF3 /* FlappyJordan */;
+			targetProxy = 9ED0B6BD1C65470D00431AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ED0B6A41C65470D00431AF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED0B6A51C65470D00431AF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ED0B6A91C65470D00431AF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ED0B6AA1C65470D00431AF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ED0B6C31C65470D00431AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ED0B6C41C65470D00431AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ED0B6C61C65470D00431AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlappyJordan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ED0B6C71C65470D00431AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlappyJordan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ED0B6C91C65470D00431AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyJordanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyJordan.app/FlappyJordan";
+			};
+			name = Debug;
+		};
+		9ED0B6CA1C65470D00431AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlappyJordanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyJordan.app/FlappyJordan";
+			};
+			name = Release;
+		};
+		9ED0B6CC1C65470D00431AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyJordanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyJordan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9ED0B6CD1C65470D00431AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlappyJordanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimpleK.FlappyJordanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyJordan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ED0B6941C65470D00431AF3 /* Build configuration list for PBXProject "FlappyJordan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0B6C31C65470D00431AF3 /* Debug */,
+				9ED0B6C41C65470D00431AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED0B6C51C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0B6C61C65470D00431AF3 /* Debug */,
+				9ED0B6C71C65470D00431AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ED0B6C81C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0B6C91C65470D00431AF3 /* Debug */,
+				9ED0B6CA1C65470D00431AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ED0B6CB1C65470D00431AF3 /* Build configuration list for PBXNativeTarget "FlappyJordanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED0B6CC1C65470D00431AF3 /* Debug */,
+				9ED0B6CD1C65470D00431AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ED0B6911C65470D00431AF3 /* Project object */;
+}
