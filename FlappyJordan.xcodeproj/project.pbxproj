@@ -16,6 +16,8 @@
 		9ED0B6AB1C65470D00431AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B6A91C65470D00431AF3 /* LaunchScreen.storyboard */; };
 		9ED0B6B61C65470D00431AF3 /* FlappyJordanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6B51C65470D00431AF3 /* FlappyJordanTests.swift */; };
 		9ED0B6C11C65470D00431AF3 /* FlappyJordanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6C01C65470D00431AF3 /* FlappyJordanUITests.swift */; };
+		9ED0B6CF1C656DE700431AF3 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED0B6CE1C656DE700431AF3 /* RandomFunction.swift */; };
+		9ED0B6D11C657C0A00431AF3 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0B6D01C657C0A00431AF3 /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9ED0B6BC1C65470D00431AF3 /* FlappyJordanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyJordanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED0B6C01C65470D00431AF3 /* FlappyJordanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyJordanUITests.swift; sourceTree = "<group>"; };
 		9ED0B6C21C65470D00431AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED0B6CE1C656DE700431AF3 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		9ED0B6D01C657C0A00431AF3 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 		9ED0B69B1C65470D00431AF3 /* FlappyJordan */ = {
 			isa = PBXGroup;
 			children = (
+				9ED0B6D01C657C0A00431AF3 /* 04B_19__.TTF */,
 				9ED0B69C1C65470D00431AF3 /* AppDelegate.swift */,
 				9ED0B69E1C65470D00431AF3 /* GameScene.sks */,
 				9ED0B6A01C65470D00431AF3 /* GameScene.swift */,
+				9ED0B6CE1C656DE700431AF3 /* RandomFunction.swift */,
 				9ED0B6A21C65470D00431AF3 /* GameViewController.swift */,
 				9ED0B6A41C65470D00431AF3 /* Main.storyboard */,
 				9ED0B6A71C65470D00431AF3 /* Assets.xcassets */,
@@ -237,6 +243,7 @@
 			files = (
 				9ED0B69F1C65470D00431AF3 /* GameScene.sks in Resources */,
 				9ED0B6AB1C65470D00431AF3 /* LaunchScreen.storyboard in Resources */,
+				9ED0B6D11C657C0A00431AF3 /* 04B_19__.TTF in Resources */,
 				9ED0B6A81C65470D00431AF3 /* Assets.xcassets in Resources */,
 				9ED0B6A61C65470D00431AF3 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +272,7 @@
 			files = (
 				9ED0B6A11C65470D00431AF3 /* GameScene.swift in Sources */,
 				9ED0B6A31C65470D00431AF3 /* GameViewController.swift in Sources */,
+				9ED0B6CF1C656DE700431AF3 /* RandomFunction.swift in Sources */,
 				9ED0B69D1C65470D00431AF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
